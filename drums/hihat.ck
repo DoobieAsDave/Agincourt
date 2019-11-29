@@ -6,7 +6,7 @@ SndBuf hihat => dac;
 
 me.dir(-1) + "audio/drums/hihat.wav" => hihat.read;
 hihat.samples() => hihat.pos;
-.25 => hihat.gain;
+.2 => hihat.gain;
 
 //
 

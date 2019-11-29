@@ -6,6 +6,7 @@ SndBuf clap => dac;
 
 me.dir(-1) + "audio/drums/clap.wav" => clap.read;
 clap.samples() => clap.pos;
+1.25 => clap.gain;
 
 //
 
